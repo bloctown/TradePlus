@@ -2,7 +2,7 @@ name: TradePlus
 version: ${project.version}
 author: Trophonix
 main: com.trophonix.tradeplus.TradePlus
-softdepend: [Vault,EnjinMinecraftPlugin,GriefPrevention,PlayerPoints,TokenManager,BeastTokens,TokenEnchant,WorldGuard,VotingPlugin]
+softdepend: [Vault,EnjinMinecraftPlugin,GriefPrevention,PlayerPoints,TokenManager,BeastTokens,TokenEnchant,WorldGuard]
 api-version: "1.16"
 commands:
   trade:

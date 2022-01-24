@@ -130,10 +130,6 @@ public class Trade implements Listener {
                       && pl.getServer().getPluginManager().isPluginEnabled("BeastToken")) {
                 extras.add(new BeastTokensExtra(player1, player2, pl, this));
               }
-              if (pl.getConfig().getBoolean("extras.votingplugin.enabled", false)
-                  && pl.getServer().getPluginManager().isPluginEnabled("VotingPlugin")) {
-                extras.add(new VotingPluginExtra(player1, player2, pl, this));
-              }
             })
         .sync(
             () -> {

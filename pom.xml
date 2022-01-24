@@ -99,7 +99,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
+            <version>1.18.22</version>
             <scope>provided</scope>
         </dependency>
 
@@ -184,14 +184,6 @@
             <artifactId>LandsAPI</artifactId>
             <version>4.5.2.0</version>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.Ben12345rocks</groupId>
-            <artifactId>VotingPlugin</artifactId>
-            <version>6.6.2</version>
-            <scope>system</scope>
-            <systemPath>${res}/VotingPlugin.jar</systemPath>
         </dependency>
 
         <dependency>
